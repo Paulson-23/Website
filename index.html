@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./Assets/style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            height: 200vh;
+            width: 100vw;
+            /* background-color: #f5f5f5; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+        }
+        .section1{
+            width: 75%;
+            height: 12rem;
+           background: #000428;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            
+        }
+        .section2{
+            width: 75%;
+            height: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+        .section3{
+            width: 75%;
+            height: 10rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+        .section4{
+            width: 75%;
+            height: 10rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+        .section5{
+            width: 75%;
+            height: 10rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+        .section6{
+            width: 75%;
+            height: 2rem;
+            display: flex;
+            background: #000428;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+        }
+        .profile-img-section{
+            height: 8rem;
+            width: 8rem;
+            margin-right: 5rem;
+            /* width: 20%;
+            height: 45%; */
+            display: flex;
+            border-radius: 50%;
+        }
+        .profile-img{
+            /* height: 9vh;
+            width: 9vw; */
+            display: flex;
+            border-radius: 50%;
+        }
+        .profile-data{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+        .call-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        border: none;
+        background-color: #30C04F;
+        }
+
+        .call-button:hover {
+        background-color: #2bac47;
+        }
+        ul{
+            margin-left: 3rem;
+            list-style: square;
+        }
+        span{
+            font-weight: 700;
+        }
+        table{
+            width: 100%;
+            border: 2px solid gray;
+            border-collapse: collapse;
+            th,td{
+                border: 1px dotted gray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <div class="profile-img-section">
+            <img src="./Assets/img/chopper.png" alt="chopper" class="profile-img">
+        </div>
+        <div class="profile-data">
+            <h1>
+                Paulson M S
+            </h1>
+            <h3>
+                paulsonmsc@gmail.com
+            </h3>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="objective-section">
+            <h1>
+                Objective
+            </h1>
+        </div>
+        <div class="objective-text">
+            <p>
+                I am a highly motivated and result-driven sales professional seeking a challenging
+                opportunity to leverage my skills and experience int a dynamic sales environmment.
+            </p>
+        </div>
+    </div>
+    <div class="section3">
+        <div class="education-section">
+            <h1>
+                Education
+            </h1>
+        </div>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Campus</th>
+                <th>Score(%)</th>
+            </tr>
+            <tr>
+                <td>Deg1</td>
+                <td>School 1</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>Deg2</td>
+                <td>School 2</td>
+                <td>81%</td>
+            </tr>
+            <tr>
+                <td>Deg3</td>
+                <td>School 3</td>
+                <td>88%</td>
+            </tr>
+        </table>
+    </div>
+    <div class="section4">
+        <h1>
+            Internships
+        </h1>
+        <div class="internships">
+            <p>
+                <span>Assistant Manager | VantexSoft Technologies</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aspernatur!
+            </p>
+            <br>
+            <p>
+                <span>Manager | VantexSoft Technologies</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, nobis?
+            </p>
+        </div>
+    </div>
+    <div class="section5">
+        <h1>
+            Skills
+        </h1>
+        <ul>
+            <li>MERN</li>
+            <li>SpringBoot</li>
+            <li>AWS</li>
+            <li>DevOps</li>
+        </ul>
+    </div>
+    <div class="section6">
+        <!-- <a>
+            <button class="call-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" viewBox="0 0 32 32" height="32" fill="none" class="svg-icon"><path stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" d="m24.8868 19.1288c-1.0274-.1308-2.036-.3815-3.0052-.7467-.7878-.29-1.6724-.1034-2.276.48-.797.8075-2.0493.9936-2.9664.3258-1.4484-1.055-2.7233-2.3295-3.7783-3.7776-.6681-.9168-.4819-2.1691.3255-2.9659.5728-.6019.7584-1.4748.4802-2.2577-.3987-.98875-.6792-2.02109-.8358-3.07557-.2043-1.03534-1.1138-1.7807-2.1694-1.77778h-3.18289c-.60654-.00074-1.18614.25037-1.60035.69334-.40152.44503-.59539 1.03943-.53345 1.63555.344 3.31056 1.47164 6.49166 3.28961 9.27986 1.64878 2.5904 3.84608 4.7872 6.43688 6.4356 2.7927 1.797 5.9636 2.9227 9.2644 3.289h.1778c.5409.0036 1.0626-.2 1.4581-.569.444-.406.6957-.9806.6935-1.5822v-3.1821c.0429-1.0763-.7171-2.0185-1.7782-2.2046z" clip-rule="evenodd"></path></svg>
+            </button>
+        </a> -->
+        <a href="tel:+91 99447 43835">
+            <button>
+                <i class="fa-solid fa-phone"></i>
+            </button>
+        </a>
+        <a href="mailto:paulsonmsc@gmail.com">
+            <button>
+                <i class="fa-solid fa-envelope"></i>
+            </button>
+        </a>
+        <a href="https://www.linkedin.com/in/paulson-m-s-651a7b2a7/" target="blank">
+            <button>
+                <i class="fa-brands fa-linkedin"></i>
+            </button>
+        </a>
+    </div>
+</body>
+<script>
+    console.log("TEST")
+</script>
+</html>
