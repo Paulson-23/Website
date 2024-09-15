@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    /* height: 200vh; */
+    width: 100vw;
+    background-color: #000000f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.content-space{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid rgb(43, 57, 125);
+    gap: 2rem;
+}
+.Header{
+    width: 100%;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    gap: 20rem;
+}
+.obj-section{
+    width: 90%;
+    /* height: 5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    .objective-text{
+        /* font-weight: 500; */
+        font-size: medium;
+    }
+}
+.edu-section{
+    width: 90%;
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.projects-section{
+    width: 90%;
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.tech-skills-section{
+    width: 90%;
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.soft-skills-section{
+    width: 90%;
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.interests-section{
+    width: 90%;
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.achievements-section{
+    width: 90%;
+    /* height: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.ref-section{
+    width: 100%;
+    /* height: 2rem; */
+    display: flex;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    button{
+        background: none;
+        border: none;
+        height: 3rem;
+        width: 3rem;
+        color: white;
+    }
+}
+.profile-img-section{
+    height: 8rem;
+    width: 8rem;
+    /* width: 20%;
+    height: 45%; */
+    display: flex;
+    border-radius: 50%;
+}
+.profile-img{
+    /* height: 9vh;
+    width: 9vw; */
+    display: flex;
+    border-radius: 50%;
+}
+.profile-data{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.icons{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    margin-left: 3rem;
+    list-style: square;
+}
+span{
+    font-weight: 700;
+}
+table{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    th,td{
+        border: 1px solid rgb(255, 255, 255);
+        height: 2rem;
+    }
+    th{
+        color: #fcf6f6e8;
+    }
+    td{
+        padding-left: 1rem;
+    }
+
+    }
+    tr:first-child{
+        background: #000428;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
